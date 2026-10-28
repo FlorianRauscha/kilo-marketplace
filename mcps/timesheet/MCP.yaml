@@ -28,6 +28,7 @@ content:
         }
       }
 parameters:
-  - name: Timesheet API Key
+  - name: Timesheet API Key (NPX only; the hosted server signs in with OAuth)
     key: TIMESHEET_API_TOKEN
     placeholder: your_timesheet_api_key
+    optional: true

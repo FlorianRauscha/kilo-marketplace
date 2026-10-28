@@ -4623,9 +4623,10 @@ items:
             }
           }
     parameters:
-      - name: Timesheet API Key
+      - name: Timesheet API Key (NPX only; the hosted server signs in with OAuth)
         key: TIMESHEET_API_TOKEN
         placeholder: your_timesheet_api_key
+        optional: true
   - id: transform-mcp
     name: Unstructured Transform MCP
     description: "Production-grade document processing your AI agents call as MCP tools: parse PDFs, spreadsheets, and
